@@ -1,47 +1,95 @@
+# Frontend
+
+Welcome to the Frontend Development — a focused, intensive program designed to take you from beginner to production-ready frontend developer.
+
 ---
-sidebar_position: 1
+
+## 📘 Frontend
+
+### **1. Version Control & Web Foundations**
+
+- Version Control with Git
+- HTML Foundations
+- CSS Fundamentals
+
+### **2. Advanced Styling & Layout**
+
+- CSS Layouts (Flexbox & Grid)
+- Advanced CSS (Animations, Transitions, Variables)
+- **Responsive Design & Media Queries**
+
+### **3. JavaScript Core - Part 1**
+
+- JavaScript Fundamentals (Variables, Data Types, Operators)
+- Control Flow & Functions
+- Arrays & Objects
+
+### **4. JavaScript Core - Part 2**
+
+- DOM Manipulation & Events
+- **Form Handling & Validation (Vanilla JS)**
+- **Mini Project: Interactive Form/Calculator**
+
+### **5. Async JavaScript & APIs**
+
+- Asynchronous JavaScript (Promises, Async/Await)
+- Working with APIs (Fetch, REST concepts)
+- **Error Handling & HTTP Status Codes**
+
+### **6. Browser Fundamentals & Modern Tools**
+
+- Browser APIs & Storage (localStorage, sessionStorage)
+- Browser Architecture & Performance
+- **Performance Optimization Basics (Lazy Loading, Debouncing)**
+
+### **6. TypeScript & Build Tools**
+
+- TypeScript Fundamentals
+- Interfaces, types, functions
+- Working with DOM in TS
+
+### **7. React Fundamentals**
+
+- React Basics (Components, Props, JSX)
+- Styling in React (Styled-components/Tailwind/CSS Modules)
+- Building Simple Components
+
+### **8. React State & Effects**
+
+- React State & Lifecycle
+- React Hooks (useState, useEffect, useRef)
+- Forms in React (Controlled Components)
+
+### **9. React Ecosystem & Routing**
+
+- React Router (Routes, Navigation, Parameters)
+- **Error Boundaries & Error Handling**
+- React & API Integration
+- Component Patterns & Best Practices
+- **Accessibility in React (ARIA, Focus Management)**
+
+### **10. Global State & Testing**
+
+- Context API
+- **Redux Fundamentals**
+- Redux Toolkit
+- Introduction to Testing (Jest & React Testing Library)
+- Testing Redux Applications
+
+### **11. Advanced Patterns & Production**
+
+- Asynchronous Redux (Thunks, RTK Query)
+- Advanced Redux Patterns
+- **Authentication & Authorization Basics (JWT, Protected Routes)**
+- **Performance Optimization (Code Splitting, React.memo, useMemo)**
+- **Production Build & Deployment (Environment Variables, Build Optimization)**
+- **Security Best Practices (XSS, CSRF Prevention)**
+- **Capstone Project Planning/Kickoff**
+
 ---
 
-# Tutorial Intro
+## Daily Structure
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- **Morning (45min-1 hour):** Concepts & explanations
+- **Afternoon (3–4 hours):** Hands-on coding + exercises
+- **Evening:** Optional reading + practice challenges

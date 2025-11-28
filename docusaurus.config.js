@@ -85,7 +85,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} Paypoint India Pvt Ltd | Unlock Technologies`,
+        copyright: `Copyright © ${new Date().getFullYear()} Paypoint India`,
       },
       prism: {
         theme: prismThemes.github,
