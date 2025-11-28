@@ -1,0 +1,36 @@
+:root{
+  /* Primary (light-mode) — use as background/buttons etc. */
+  --ifm-color-primary: #002c8a;            /* dark blue — ok with white text (AAA) */
+  --ifm-color-primary-dark: #001a5f;       /* deeper */
+  --ifm-color-primary-darker: #00164f;     /* darkest */
+  --ifm-color-primary-darkest: #00123d;    /* for very dark accents */
+
+  /* Lighter variants (use these as surfaces/highlights) — use dark text on them */
+  --ifm-color-primary-light: #0033a3;
+  --ifm-color-primary-lighter: #003fbd;
+  --ifm-color-primary-lightest: #4c7cff;   /* lighter highlight — use dark text */
+
+  /* Explicit "on-*" tokens so developers know which text color to pair: */
+  --ifm-on-primary: #ffffff;               /* text placed on --ifm-color-primary */
+  --ifm-on-primary-dark: #ffffff;          /* text on darker shades */
+  --ifm-on-primary-lightest: #0a0a0a;      /* use dark text on lightest variants */
+}
+
+/* Dark theme: treat the lighter blue as the usable accent/foreground on dark bg */
+[data-theme='dark']{
+  /* Use the bright blue as foreground (buttons, links, icons) on dark backgrounds */
+  --ifm-color-primary: #4c7cff;            /* bright blue for dark-mode UI elements (foreground) */
+  --ifm-color-primary-dark: #3d65d6;
+  --ifm-color-primary-darker: #3356b8;
+  --ifm-color-primary-darkest: #28408f;
+
+  /* Make intent explicit: if you place this blue as a surface, use dark text.
+     But best practice: use it as a foreground (text/icons) on near-black backgrounds. */
+  --ifm-on-primary: #000000;               /* text color to place ON the #4c7cff surface */
+  --ifm-on-primary-foreground: #ffffff;    /* if you must place white on it, restrict to large text only */
+}
+
+
+nav.navbar {
+  display: none !important;
+}
