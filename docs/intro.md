@@ -1,4 +1,4 @@
-# Frontend
+# Home
 
 Welcome to the Frontend Development — a focused, intensive program designed to take you from beginner to production-ready frontend developer.
 
