@@ -85,7 +85,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} Paypoint India`,
+        copyright: `Copyright © ${new Date().getFullYear()} Paypoint`,
       },
       prism: {
         theme: prismThemes.github,
