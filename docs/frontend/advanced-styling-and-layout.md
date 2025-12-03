@@ -89,6 +89,14 @@ gap: 20px;
 }
 ```
 
+<!-- Add Link  -->
+<iframe src="https://codesandbox.io/embed/yy3ynp?view=preview&module=%2Fstyles.css"
+     style={{width:"100%", height: "500px", borderRadius:"4px", overflow:"hidden"}}
+     title="CSS"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ## 1.3 CSS Grid — Two-Dimensional Layout
 
 Grid is perfect for complex layouts, dashboards, or card layouts.
@@ -140,6 +148,13 @@ Grid is perfect for complex layouts, dashboards, or card layouts.
 }
 ```
 
+<iframe src="https://codesandbox.io/embed/vpn79x?view=preview&module=%2Findex.html"
+     style={{width:"100%", height: "500px", borderRadius:"4px", overflow:"hidden"}}
+     title="Two-Dimensional Layout"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ---
 
 # 2. Advanced CSS (Animations, Transitions, Variables)
@@ -158,6 +173,13 @@ button:hover {
   background: darkblue;
 }
 ```
+
+<iframe src="https://codesandbox.io/embed/wqh77l?view=preview&module=%2Fstyles.css"
+     style={{width:"100%", height: "500px", borderRadius:"4px", overflow:"hidden"}}
+     title="CSS Transition"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## 2.2 CSS Animations
 
@@ -184,6 +206,13 @@ Used for continuous or keyframe-based motion.
 }
 ```
 
+<iframe src="https://codesandbox.io/embed/xtyfvs?view=preview&module=%2Findex.html"
+     style={{width:"100%", height: "500px", borderRadius:"4px", overflow:"hidden"}}
+     title="CSS Animation"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
 ## 2.3 CSS Variables (Custom Properties)
 
 Great for theme systems and consistent color usage.
@@ -208,6 +237,13 @@ p {
   color: var(--text);
 }
 ```
+
+<iframe src="https://codesandbox.io/embed/2khpjg?view=preview&module=%2Fstyles.css"
+      style={{width:"100%", height: "500px", borderRadius:"4px", overflow:"hidden"}}
+     title="Custom Properties"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ---
 
@@ -305,3 +341,5 @@ Try using:
 - CSS variables for theme
 - Hover transitions
 - A small animation (pulse, fade-in, etc.)
+
+https://codesandbox.io/p/sandbox/3v2c27
